@@ -11,7 +11,7 @@ import javax.swing.ImageIcon;
 public  class Player extends HpRender {
 
     public Player() {
-        reset();
+        //reset();
         this.image = new ImageIcon(Objects.requireNonNull(getClass().getResource("/game/image/plane.png"))).getImage();
         this.image_speed = new ImageIcon(Objects.requireNonNull(getClass().getResource("/game/image/plane_speed.png"))).getImage();
         Path2D p = new Path2D.Double();
@@ -122,7 +122,7 @@ public  class Player extends HpRender {
         speed = 0;
     }
 
-    private void resetHP() {
+    private void resetHP () {
 
     }
 }

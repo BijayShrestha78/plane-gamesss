@@ -1,6 +1,5 @@
 package game.main;
 
-import game.component.Key;
 import game.component.PanelGame;
 import java.awt.BorderLayout;
 import java.awt.event.WindowAdapter;
@@ -8,8 +7,6 @@ import java.awt.event.WindowEvent;
 import javax.swing.JFrame;
 
 public class Main extends JFrame {
-
-    private game.component.Key Key;
 
     public Main() {
         init();
@@ -22,7 +19,7 @@ public class Main extends JFrame {
         setResizable(false);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLayout(new BorderLayout());
-        PanelGame panelGame = new PanelGame(Key);
+        PanelGame panelGame = new PanelGame();
         add(panelGame);
         addWindowListener(new WindowAdapter() {
             @Override

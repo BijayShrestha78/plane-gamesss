@@ -57,6 +57,5 @@ public class Key {
     private boolean key_k;
     private boolean key_enter;
 
-    public void setKEY_left(boolean b) {
-    }
+
 }

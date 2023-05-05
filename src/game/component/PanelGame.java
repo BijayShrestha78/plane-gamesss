@@ -1,6 +1,7 @@
 package game.component;
 
 
+import game.obj.Bullet;
 import game.obj.Player;
 import java.awt.Color;
 import java.awt.Graphics;
@@ -9,12 +10,14 @@ import java.awt.RenderingHints;
 import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
 import java.awt.image.BufferedImage;
+import java.util.ArrayList;
+import java.util.List;
 import javax.swing.JComponent;
 
 import static java.lang.Thread.sleep;
 //import static jdk.internal.org.jline.utils.Log.render;
 
-public class PanelGame extends JComponent {
+public class  PanelGame extends JComponent {
 
     private Graphics2D g2;
     private BufferedImage image;
@@ -23,6 +26,7 @@ public class PanelGame extends JComponent {
     private Thread thread;
     private final boolean start = true;
     private Key key;
+    private int shotTime;
 
 
     //  Game FPS
@@ -31,6 +35,7 @@ public class PanelGame extends JComponent {
     //  Game Object
 
     private Player player;
+    private List<Bullet> bullets;
 
     public void start() {
         width = getWidth();
@@ -50,31 +55,24 @@ public class PanelGame extends JComponent {
                     long time = System.nanoTime() - startTime;
                     if (time < TARGET_TIME) {
                         long sleep = (TARGET_TIME - time) / 1000000;
-                        try {
+                       // try {
                             sleep(sleep);
-                        } catch (InterruptedException e) {
-                            throw new RuntimeException(e);
-                        }
+                        //} catch (InterruptedException e) {
+                         //   throw new RuntimeException(e);
+                       // }
                     }
                 }
             }
         });
         initObjectGame();
         initKeyboard();
+        initBullets();
         thread.start();
     }
 
-    private void render() {
 
-    }
 
-    private void drawGame() {
 
-    }
-
-    private void drawBackground() {
-
-    }
 
 
     private void initObjectGame() {
@@ -87,7 +85,7 @@ public class PanelGame extends JComponent {
         key = new Key();
         requestFocus();
         addKeyListener(new KeyAdapter() {
-            //@Override
+            @Override
             public void keyPressed(KeyEvent e) {
                 if (e.getKeyCode() == KeyEvent.VK_A) {
                     key.setKey_left(true);
@@ -103,6 +101,7 @@ public class PanelGame extends JComponent {
                     key.setKey_enter(true);
                 }
             }
+
 
             @Override
             public void keyReleased(KeyEvent e) {
@@ -134,23 +133,86 @@ public class PanelGame extends JComponent {
                         if (key.isKey_right()) {
                             angle += s;
                         }
+                        if(key.isKey_j()||key.isKey_k()){
+                            if (shotTime == 0){
+                                if (key.isKey_j()) {
+                                    bullets.add(0, new Bullet(player.getX(), player.getY(), player.getAngle(), 5, 3f));
+                                } else {
+                                    bullets.add(0, new Bullet(player.getX(), player.getY(), player.getAngle(), 20, 3f));
+                                }
+
+                            }
+                            shotTime++;
+                            if (shotTime == 15) {
+                                shotTime = 0;
+                            }
+                        }else{
+                            shotTime = 0;
+                        }
+                        if(key.isKey_space()){
+                            player.speedUp();
+                        }else{
+                            player.speedDown();
+                        }
+                        player.update();
                         player.changeAngle(angle);
-                        try {
-                            sleep(5);
-                        } catch (InterruptedException e) {
-                            throw new RuntimeException(e);
-                        }
 
 
-                        private void drawBackground() {
-                          g2.setColor(new Color(30, 30, 30));
-                              g2.fillRect(0, 0, width, height);
+                    }
+                    sleep(5);
+
+                }
+            }
+        }).start();
+    }
+
+        private void drawBackground() {
+            g2.setColor(new Color(30, 30, 30));
+            g2.fillRect(0, 0, width, height);
+        }
+
+        private void drawGame() {
+        if(player.isAlive()){
+            player.draw(g2);
+        }
+        for (int i = 0; i < bullets.size(); i++) {
+            Bullet bullet = bullets.get(i);
+            if (bullet != null) {
+                bullet.draw(g2);
+            }
+        }
+
+        }
+
+
+        //initializing bullets into panel
+        private void initBullets(){
+         bullets = new ArrayList<>();
+         new Thread(new Runnable() {
+             @Override
+             public void run() {
+                 while(start){
+                     //to show that all the bullets in list collection is moving
+                     for(int i=0;i< bullets.size();i++){
+                         Bullet bullet = bullets.get(i);
+                         if(bullet!= null){
+                             //to increase the location or make the bullet is moving
+                             bullet.update();
+                             //checking if the bullet is outside the screen
+                             //if it is then it removes the bullet from the list
+                             if(!bullet.check(width,height)){
+                                 bullets.remove(bullet);
+                             }
+                         }else {
+                             bullets.remove(bullet);
                          }
+                     }
+                     sleep(1);
+                 }
+             }
+         }).start();
 
-                  private void drawGame() {
-                            player.draw(g2);
-                        }
-                      }
+        }
 
 
 
@@ -160,7 +222,7 @@ public class PanelGame extends JComponent {
         g.dispose();
     }
 
-    private void sleep(long speed) {
+    private void sleep( long speed) {
         try {
            Thread.sleep(speed);
         } catch (InterruptedException ex) {
