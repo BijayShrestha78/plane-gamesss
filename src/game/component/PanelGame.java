@@ -3,6 +3,8 @@ package game.component;
 
 import game.obj.Bullet;
 import game.obj.Player;
+import game.obj.Rocket;
+
 import java.awt.Color;
 import java.awt.Graphics;
 import java.awt.Graphics2D;
@@ -12,7 +14,10 @@ import java.awt.event.KeyEvent;
 import java.awt.image.BufferedImage;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Random;
 import javax.swing.JComponent;
+import java.awt.geom.Area;
+
 
 import static java.lang.Thread.sleep;
 //import static jdk.internal.org.jline.utils.Log.render;
@@ -36,6 +41,7 @@ public class  PanelGame extends JComponent {
 
     private Player player;
     private List<Bullet> bullets;
+    private List<Rocket> rockets;
 
     public void start() {
         width = getWidth();
@@ -70,14 +76,44 @@ public class  PanelGame extends JComponent {
         thread.start();
     }
 
-
-
-
-
+    private void addRocket(){
+        //to create rocket at random location
+        Random ran = new Random();
+        int locationY = ran.nextInt(height - 50) + 25;
+        Rocket rocket = new Rocket();
+        //setting rocket location at (0,randomLocation)
+        rocket.changeLocation(0, locationY);
+        //for moving from left to right because
+        // it is created at left side of screen and have to come to right side
+        rocket.changeAngle(0);
+        rockets.add(rocket);
+        //again creating new random value for new rocket object
+        int locationY2 = ran.nextInt(height - 50) + 25;
+        Rocket rocket2 = new Rocket();
+        //setting new rocket object location xx to the width of the screen
+        //and y as random values which means one creates at the top of screen and
+        // one at the end(other side) of screen
+        rocket2.changeLocation(width, locationY2);
+        //for moving from right to left because
+        // it is created at right side of screen and have to come to left side
+        rocket2.changeAngle(180);
+        rockets.add(rocket2);
+    }
 
     private void initObjectGame() {
         player = new Player();
         player.changeLocation(150, 150);
+        rockets = new ArrayList<>();
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+                while(start){
+                    addRocket();
+                    sleep(3000);
+                }
+            }
+        }).start();
+
     }
 
 
@@ -156,6 +192,20 @@ public class  PanelGame extends JComponent {
                         }
                         player.update();
                         player.changeAngle(angle);
+                        for(int i=0;i<rockets.size(); i++){
+                            Rocket rocket = rockets.get(i);
+                            if(rocket != null){
+                                rocket.update();
+                                if (!rocket.check(width, height)) {
+                                    rockets.remove(rocket);
+                                }
+                                //else{
+//                                    if (player.isAlive()) {
+//                                        checkPlayer(rocket);
+//                                    }
+//                                }
+                            }
+                        }
 
 
                     }
@@ -164,6 +214,20 @@ public class  PanelGame extends JComponent {
                 }
             }
         }).start();
+    }
+
+    private void checkBullets(Bullet bullet){
+        for (int i = 0; i < rockets.size(); i++){
+            Rocket rocket = rockets.get(i);
+            if (rocket != null){
+                Area area = new Area(bullet.getShape());
+                area.intersect(rocket.getShape());
+                if (!area.isEmpty()){
+                    rockets.remove(rocket);
+                    bullets.remove(bullet);
+                }
+            }
+        }
     }
 
         private void drawBackground() {
@@ -179,6 +243,12 @@ public class  PanelGame extends JComponent {
             Bullet bullet = bullets.get(i);
             if (bullet != null) {
                 bullet.draw(g2);
+            }
+        }
+        for (int i = 0; i < rockets.size(); i++) {
+            Rocket rocket = rockets.get(i);
+            if (rocket != null) {
+                rocket.draw(g2);
             }
         }
 
@@ -198,6 +268,7 @@ public class  PanelGame extends JComponent {
                          if(bullet!= null){
                              //to increase the location or make the bullet is moving
                              bullet.update();
+                             checkBullets(bullet);
                              //checking if the bullet is outside the screen
                              //if it is then it removes the bullet from the list
                              if(!bullet.check(width,height)){
