@@ -2,6 +2,7 @@ package game.component;
 
 
 import game.obj.Bullet;
+import game.obj.Effect;
 import game.obj.Player;
 import game.obj.Rocket;
 
@@ -42,6 +43,7 @@ public class  PanelGame extends JComponent {
     private Player player;
     private List<Bullet> bullets;
     private List<Rocket> rockets;
+    private List<Effect> boomEffects;
 
     public void start() {
         width = getWidth();
@@ -104,6 +106,7 @@ public class  PanelGame extends JComponent {
         player = new Player();
         player.changeLocation(150, 150);
         rockets = new ArrayList<>();
+        boomEffects= new ArrayList<>();
         new Thread(new Runnable() {
             @Override
             public void run() {
@@ -222,9 +225,20 @@ public class  PanelGame extends JComponent {
             if (rocket != null){
                 Area area = new Area(bullet.getShape());
                 area.intersect(rocket.getShape());
-                if (!area.isEmpty()){
-                    rockets.remove(rocket);
-                    bullets.remove(bullet);
+                if (!area.isEmpty()) {
+                    boomEffects.add(new Effect(bullet.getCenterX(), bullet.getCenterY(), 3, 5, 60, 0.5f, new Color(230, 207, 105)));
+                    if (true) {
+                         rockets.remove(rocket);
+
+                        double x = rocket.getX() + Rocket.ROCKET_SIZE / 2;
+                        double y = rocket.getY() + Rocket.ROCKET_SIZE / 2;
+                        boomEffects.add(new Effect(x, y, 5, 5, 75, 0.05f, new Color(32, 178, 169)));
+                        boomEffects.add(new Effect(x, y, 5, 5, 75, 0.1f, new Color(32, 178, 169)));
+                        boomEffects.add(new Effect(x, y, 10, 10, 100, 0.3f, new Color(230, 207, 105)));
+                        boomEffects.add(new Effect(x, y, 10, 5, 100, 0.5f, new Color(255, 70, 70)));
+                        boomEffects.add(new Effect(x, y, 10, 5, 150, 0.2f, new Color(255, 255, 255)));
+                        bullets.remove(bullet);
+                    }
                 }
             }
         }
@@ -251,6 +265,12 @@ public class  PanelGame extends JComponent {
                 rocket.draw(g2);
             }
         }
+            for (int i = 0; i < boomEffects.size(); i++) {
+                Effect boomEffect = boomEffects.get(i);
+                if (boomEffect != null) {
+                    boomEffect.draw(g2);
+                }
+            }
 
         }
 
@@ -276,6 +296,17 @@ public class  PanelGame extends JComponent {
                              }
                          }else {
                              bullets.remove(bullet);
+                         }
+                     }
+                     for (int i = 0; i < boomEffects.size(); i++) {
+                         Effect boomEffect = boomEffects.get(i);
+                         if (boomEffect != null) {
+                             boomEffect.update();
+                             if (!boomEffect.check()) {
+                                 boomEffects.remove(boomEffect);
+                             }
+                         } else {
+                             boomEffects.remove(boomEffect);
                          }
                      }
                      sleep(1);
