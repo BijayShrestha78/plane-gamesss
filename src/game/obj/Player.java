@@ -11,8 +11,7 @@ import javax.swing.ImageIcon;
 public  class Player extends HpRender {
 
     public Player() {
-
-        super(new HP(50, 50));
+        //reset();
         this.image = new ImageIcon(Objects.requireNonNull(getClass().getResource("/game/image/plane.png"))).getImage();
         this.image_speed = new ImageIcon(Objects.requireNonNull(getClass().getResource("/game/image/plane_speed.png"))).getImage();
         Path2D p = new Path2D.Double();
@@ -66,6 +65,9 @@ public  class Player extends HpRender {
 
     }
 
+    private void hpRender(Graphics2D g2, Area shape, double y) {
+
+    }
 
     public Area getShape() {
         AffineTransform afx = new AffineTransform();
@@ -120,5 +122,7 @@ public  class Player extends HpRender {
         speed = 0;
     }
 
+    private void resetHP () {
 
+    }
 }
