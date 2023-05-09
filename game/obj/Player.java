@@ -11,7 +11,7 @@ import javax.swing.ImageIcon;
 public  class Player extends HpRender {
 
     public Player() {
-
+        //reset();
         super(new HP(50, 50));
         this.image = new ImageIcon(Objects.requireNonNull(getClass().getResource("/game/image/plane.png"))).getImage();
         this.image_speed = new ImageIcon(Objects.requireNonNull(getClass().getResource("/game/image/plane_speed.png"))).getImage();

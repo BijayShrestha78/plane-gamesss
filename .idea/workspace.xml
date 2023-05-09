@@ -4,39 +4,80 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf743ca4-cc12-46d1-a0a9-48886b3c2462" name="Changes" comment="" />
+    <list default="true" id="2bdfcc1b-f47d-4a35-826a-466dae95b5da" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/game/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/component/PanelGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/game/component/PanelGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/game.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/obj/HpRender.java" beforeDir="false" afterPath="$PROJECT_DIR$/game/obj/HpRender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/obj/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/game/obj/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/out/production/game/game/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/out/production/game/game/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/out/production/game/game/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/out/production/game/game/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/out/production/game/game/component/Key.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/out/production/game/game/component/PanelGame$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/out/production/game/game/component/PanelGame$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/out/production/game/game/component/PanelGame$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/out/production/game/game/component/PanelGame$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/out/production/game/game/component/PanelGame$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/out/production/game/game/component/PanelGame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/out/production/game/game/game.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/out/production/game/game/image/plane.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/out/production/game/game/image/plane_speed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/out/production/game/game/image/rocket.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/out/production/game/game/main/Main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/out/production/game/game/main/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/out/production/game/game/obj/Bullet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/out/production/game/game/obj/Effect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/out/production/game/game/obj/HP.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/out/production/game/game/obj/HpRender.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/out/production/game/game/obj/ModelBoom.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/out/production/game/game/obj/Player.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/out/production/game/game/obj/Rocket.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/plane-gamesss/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/plane-gamesss/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/plane-gamesss/game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/plane-gamesss/game/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/plane-gamesss/game/component/PanelGame$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/plane-gamesss/game/component/PanelGame$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/plane-gamesss/game/component/PanelGame$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/plane-gamesss/game/component/PanelGame$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/plane-gamesss/game/component/PanelGame$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/plane-gamesss/game/component/PanelGame$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/plane-gamesss/game/component/PanelGame$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/plane-gamesss/game/component/PanelGame$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/plane-gamesss/game/component/PanelGame$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/plane-gamesss/game/component/PanelGame$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/plane-gamesss/game/component/PanelGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/plane-gamesss/game/component/PanelGame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/plane-gamesss/game/obj/HP.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/plane-gamesss/game/obj/HP.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/plane-gamesss/game/obj/HpRender.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/plane-gamesss/game/obj/HpRender.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/plane-gamesss/game/obj/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/plane-gamesss/game/obj/Player.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/plane-gamesss/game/obj/Rocket.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/plane-gamesss/game/obj/Rocket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/plane-gamesss/game/out/production/game/game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/plane-gamesss/game/out/production/game/game/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2PMUdvrVgLHRJuCPfoRs56Z3wOH" />
+  <component name="ProjectId" id="2PYM94WQS1WFUAv8uKyCwo3uel5" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "D:/java/New folder (3)/plane-gamesss/src/game/component/PanelGame.java",
+    "two.files.diff.last.used.file": "D:/java/New folder (3)/plane-gamesss/src/game/component/PanelGame.java"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="game.main.Main" />
@@ -51,12 +92,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <module name="plane-gamesss" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
@@ -66,11 +101,11 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="cf743ca4-cc12-46d1-a0a9-48886b3c2462" name="Changes" comment="" />
-      <created>1683266537694</created>
+      <changelist id="2bdfcc1b-f47d-4a35-826a-466dae95b5da" name="Changes" comment="" />
+      <created>1683629406673</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1683266537694</updated>
+      <updated>1683629406673</updated>
     </task>
     <servers />
   </component>
