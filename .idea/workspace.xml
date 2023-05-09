@@ -4,7 +4,97 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf743ca4-cc12-46d1-a0a9-48886b3c2462" name="Changes" comment="" />
+    <list default="true" id="cf743ca4-cc12-46d1-a0a9-48886b3c2462" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plane.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Planed.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manifest.mf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Plane/game/image/plane.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Plane/game/image/plane_speed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Plane/game/obj/HP.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Plane/game/obj/HpRender.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Plane/game/obj/Player.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Planed/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Planed/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Planed/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Planed/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Planed/game/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Planed/game/component/Key.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Planed/game/component/PanelGame$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Planed/game/component/PanelGame$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Planed/game/component/PanelGame$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Planed/game/component/PanelGame$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Planed/game/component/PanelGame$5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Planed/game/component/PanelGame.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Planed/game/image/plane.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Planed/game/image/plane_speed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Planed/game/image/rocket.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Planed/game/main/Main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Planed/game/main/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Planed/game/obj/Bullet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Planed/game/obj/Effect.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Planed/game/obj/HP.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Planed/game/obj/HpRender.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Planed/game/obj/ModelBoom.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Planed/game/obj/Player.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Planed/game/obj/Rocket.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Planed/game/out/production/game/game/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Planed/out/production/plane-gamesss/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Planed/out/production/plane-gamesss/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Planed/out/production/plane-gamesss/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Planed/out/production/plane-gamesss/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Planed/out/production/plane-gamesss/game/image/plane.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Planed/out/production/plane-gamesss/game/image/plane_speed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Planed/out/production/plane-gamesss/game/image/rocket.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Planed/out/production/plane-gamesss/plane-gamesss.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Planed/plane-gamesss.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/game/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/game/component/Key.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/game/component/PanelGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/game/image/plane.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/game/image/plane_speed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/game/image/rocket.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/game/main/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/game/obj/Bullet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/game/obj/Effect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/game/obj/HP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/game/obj/HpRender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/game/obj/ModelBoom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/game/obj/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/game/obj/Rocket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/game/out/production/game/game/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/out/production/plane-gamesss/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/out/production/plane-gamesss/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/out/production/plane-gamesss/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/out/production/plane-gamesss/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/out/production/plane-gamesss/game/component/Key.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/out/production/plane-gamesss/game/component/PanelGame$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/out/production/plane-gamesss/game/component/PanelGame$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/out/production/plane-gamesss/game/component/PanelGame$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/out/production/plane-gamesss/game/component/PanelGame$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/out/production/plane-gamesss/game/component/PanelGame$5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/out/production/plane-gamesss/game/component/PanelGame.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/out/production/plane-gamesss/game/image/plane.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/out/production/plane-gamesss/game/image/plane_speed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/out/production/plane-gamesss/game/image/rocket.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/out/production/plane-gamesss/game/main/Main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/out/production/plane-gamesss/game/main/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/out/production/plane-gamesss/game/obj/Bullet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/out/production/plane-gamesss/game/obj/HP.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/out/production/plane-gamesss/game/obj/HpRender.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/out/production/plane-gamesss/game/obj/Player.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/out/production/plane-gamesss/game/obj/Rocket.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/out/production/plane-gamesss/plane-gamesss.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/plane-gamesss.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,7 +108,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />

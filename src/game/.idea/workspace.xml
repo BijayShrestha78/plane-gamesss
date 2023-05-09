@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="40d66c93-27cf-47d8-aa5a-08172578ee58" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Plane.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Planed.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../build.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../manifest.mf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../out/production/Plane/game/image/plane.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../out/production/Plane/game/image/plane_speed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../out/production/Plane/game/obj/HP.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../out/production/Plane/game/obj/HpRender.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../out/production/Plane/game/obj/Player.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../out/production/Planed/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../out/production/Planed/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../out/production/Planed/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../out/production/Planed/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../out/production/Planed/game/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../out/production/Planed/game/component/Key.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../out/production/Planed/game/component/PanelGame$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../out/production/Planed/game/component/PanelGame$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../out/production/Planed/game/component/PanelGame$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../out/production/Planed/game/component/PanelGame$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../out/production/Planed/game/component/PanelGame$5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../out/production/Planed/game/component/PanelGame.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../out/production/Planed/game/image/plane.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../out/production/Planed/game/image/plane_speed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../out/production/Planed/game/image/rocket.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../out/production/Planed/game/main/Main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../out/production/Planed/game/main/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../out/production/Planed/game/obj/Bullet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../out/production/Planed/game/obj/Effect.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../out/production/Planed/game/obj/HP.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../out/production/Planed/game/obj/HpRender.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../out/production/Planed/game/obj/ModelBoom.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../out/production/Planed/game/obj/Player.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../out/production/Planed/game/obj/Rocket.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../out/production/Planed/game/out/production/game/game/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../out/production/Planed/out/production/plane-gamesss/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../out/production/Planed/out/production/plane-gamesss/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../out/production/Planed/out/production/plane-gamesss/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../out/production/Planed/out/production/plane-gamesss/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../out/production/Planed/out/production/plane-gamesss/game/image/plane.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../out/production/Planed/out/production/plane-gamesss/game/image/plane_speed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../out/production/Planed/out/production/plane-gamesss/game/image/rocket.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../out/production/Planed/out/production/plane-gamesss/plane-gamesss.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../out/production/Planed/plane-gamesss.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/component/Key.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/component/PanelGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/plane.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/plane_speed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/rocket.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Bullet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Effect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/HP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/HpRender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/ModelBoom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Rocket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/game/game/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/plane-gamesss/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/plane-gamesss/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/plane-gamesss/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/plane-gamesss/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/plane-gamesss/game/component/Key.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/plane-gamesss/game/component/PanelGame$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/plane-gamesss/game/component/PanelGame$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/plane-gamesss/game/component/PanelGame$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/plane-gamesss/game/component/PanelGame$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/plane-gamesss/game/component/PanelGame$5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/plane-gamesss/game/component/PanelGame.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/plane-gamesss/game/image/plane.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/plane-gamesss/game/image/plane_speed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/plane-gamesss/game/image/rocket.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/plane-gamesss/game/main/Main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/plane-gamesss/game/main/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/plane-gamesss/game/obj/Bullet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/plane-gamesss/game/obj/HP.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/plane-gamesss/game/obj/HpRender.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/plane-gamesss/game/obj/Player.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/plane-gamesss/game/obj/Rocket.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/plane-gamesss/plane-gamesss.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../plane-gamesss.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/vcs.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/../.." value="main-local" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2PQQVZeNuKoWsf7DhqK00SueJJs" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="game.main.Main" />
+      <module name="game" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="game.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="40d66c93-27cf-47d8-aa5a-08172578ee58" name="Changes" comment="" />
+      <created>1683386852051</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1683386852051</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
