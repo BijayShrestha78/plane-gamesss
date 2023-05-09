@@ -24,7 +24,7 @@ public class HpRender {
             g2.fill(new Rectangle2D.Double(0, hpY, hpSize, 2));
         }
     }
-    //  to update hp value to decrease hp value when player or rocket got hit
+      //  to update hp value to decrease hp value when player or rocket got hit
     public boolean updateHP(double cutHP) {
         hp.setCurrentHp(hp.getCurrentHp() - cutHP);
         return hp.getCurrentHp() > 0;
