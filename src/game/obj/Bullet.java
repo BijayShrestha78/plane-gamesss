@@ -49,7 +49,7 @@ public class Bullet {
     public boolean check(int width,int height){
         if(x<= -size|| y<-size||x>width||y>height){
             return false;
-       }else{
+        }else{
             return true;
         }
 
