@@ -40,10 +40,32 @@ public  class Player extends HpRender {
         this.y = y;
     }
 
+//    public void update() {
+//        x += Math.cos(Math.toRadians(angle)) * speed;
+//        y += Math.sin(Math.toRadians(angle)) * speed;
+//    }
+    //public void update(int screenWidth, int screenHeight) {
     public void update() {
-        x += Math.cos(Math.toRadians(angle)) * speed;
-        y += Math.sin(Math.toRadians(angle)) * speed;
+
+        // calculate new position based on angle and speed
+        double newX = x + Math.cos(Math.toRadians(angle)) * speed;
+        double newY = y + Math.sin(Math.toRadians(angle)) * speed;
+
+        // check if new position is within screen bounds
+        if (newX < 0 || newX + PLAYER_SIZE > 1367) {
+            // if not, don't update x position
+            newX = x;
+        }
+        if (newY < 0 || newY + PLAYER_SIZE > 769) {
+            // if not, don't update y position
+            newY = y;
+        }
+
+        // update player position
+        x = newX;
+        y = newY;
     }
+
 
     public void changeAngle(float angle) {
         if (angle < 0) {
